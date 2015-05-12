@@ -5,13 +5,15 @@
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 		<meta name="description" content="">
-		<meta name="author" content="Artesãos">
+		<meta name="author" content="">
+		<link rel="icon" href="/favicon.ico">
 
 		<title>Artesãos</title>
 		<link href='http://fonts.googleapis.com/css?family=Antic' rel='stylesheet' type='text/css'>
 		<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" rel="stylesheet">
-		<link rel="stylesheet" type="text/css" href="./style.css">
+		<link rel="stylesheet" type="text/css" href="/style.css">
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!--[if lt IE 9]>
 			<script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
@@ -21,7 +23,7 @@
 
 	<body>
 
-		<nav class="navbar navbar-default navbar-static-top navbar-artesaos">
+		<nav class="navbar navbar-default navbar-static-top">
 			<div class="container">
 				<div class="navbar-header">
 					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -48,7 +50,7 @@
 			<div class="row">
 				<div class="col-md-3">
 					<div class="panel panel-default box">
-						<div class="panel-heading box-heading">Test Package</div>
+						<div class="panel-heading">Test Package</div>
 						<div class="panel-body">
 							<p>É um fato conhecido de todos que um leitor se distrairá com o conteúdo de texto legível de uma página quando estiver examinando sua diagramação.</p>
 							
@@ -228,7 +230,7 @@
 			<hr>
 
 			<footer>
-				<p>&copy; Artesãos, sem bule LTDA</p>
+				<p>&copy; Artesãos, sem bule</p>
 			</footer>
 		</div>
 
